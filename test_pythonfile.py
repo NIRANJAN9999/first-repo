@@ -27,8 +27,11 @@ def greet_n_rate():
             print("Invalid rating. Please rate between 1-5.")
         else:
             print(f"Thanks for rating us {rating}!")
+#ADDING A SMILE FACE            
+    
             
     greet()
     rating()
+    print("   ** -- **   ")
 
 greet_n_rate()
